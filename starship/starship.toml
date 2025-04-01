@@ -1,0 +1,13 @@
+# ~/.config/starship.toml
+
+format = '$all'
+
+# Inserts a blank line between shell prompts
+add_newline = false
+
+# Timeout to scan files (in miliseconds)
+scan_timeout = 15
+
+[shell]
+disabled = false
+
