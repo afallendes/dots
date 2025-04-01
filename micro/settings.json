@@ -1,0 +1,17 @@
+{
+	"autoindent": true,
+	"cursorline": true,
+	"detectlimit": 80,
+	"diffgutter": true,
+	"encoding": "utf-8",
+	"eofnewline": true,
+	"fileformat": "dos",
+	"infobar": false,
+	"mkparents": true,
+	"mouse": true,
+	"ruler": true,
+	"softwrap": true,
+	"statusline": false,
+	"tabsize": 4,
+	"tabstospaces": true,
+}
