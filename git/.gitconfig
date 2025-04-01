@@ -1,0 +1,14 @@
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --all
+[core]
+    editor = vim
+[color]
+    ui = auto
+[credential]
+    helper = cache
+[init]
+    defaultBranch = main
