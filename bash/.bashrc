@@ -25,6 +25,7 @@ alias ll="ls -lA"
 alias h="history"
 alias c="clear"
 alias r="clear && source ~/.bashrc"
+alias t="tree -a -I .git"
 
 # Bat
 command -v batcat &> /dev/null && alias b="batcat"
