@@ -26,6 +26,9 @@ alias h="history"
 alias c="clear"
 alias r="clear && source ~/.bashrc"
 
+# Bat
+command -v batcat &> /dev/null && alias b="batcat"
+
 # DevBox
 command -v devbox &> /dev/null && eval "$(devbox global shellenv)"
 
