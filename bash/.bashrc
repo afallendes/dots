@@ -18,6 +18,12 @@ mcd() {
     mkdir -p "$1" && cd "$1"
 }
 
+sync() {
+    local target="$1"
+    local link="$2"
+    ln -sf $target $link
+}
+
 # Aliases
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
@@ -26,6 +32,7 @@ alias h="history"
 alias c="clear"
 alias r="clear && source ~/.bashrc"
 alias t="tree -a -I .git"
+alias s="sync"
 
 # Bat
 command -v batcat &> /dev/null && alias b="batcat"
@@ -38,4 +45,3 @@ command -v starship &> /dev/null && eval "$(starship init bash)"
 
 # Linuxbrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
