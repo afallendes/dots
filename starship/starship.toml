@@ -2,12 +2,14 @@
 
 format = '$all'
 
-# Inserts a blank line between shell prompts
+# Inserts blank line between shell prompts (true)
 add_newline = false
 
-# Timeout to scan files (in miliseconds)
-scan_timeout = 15
+# Timeout to scan files (in ms, 30)
+scan_timeout = 50
+
+# Timeout for executed commands (in ms, 500)
+commmand_timeout = 500
 
 [shell]
 disabled = false
-
