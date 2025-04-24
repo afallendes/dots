@@ -42,6 +42,3 @@ command -v devbox &> /dev/null && eval "$(devbox global shellenv)"
 
 # Starship
 command -v starship &> /dev/null && eval "$(starship init bash)"
-
-# Linuxbrew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
