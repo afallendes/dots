@@ -12,3 +12,6 @@
     helper = cache
 [init]
     defaultBranch = main
+[user]
+    name = "afallendes"
+    email = "alexis@afallendes.dev"
