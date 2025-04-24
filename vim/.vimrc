@@ -70,7 +70,7 @@ set wrap
 set linebreak
 
 " maximum width of text that is auto wrapped
-set textwidth=80
+set textwidth=0
 
 
 " suppress the intro  message
