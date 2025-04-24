@@ -73,6 +73,10 @@ set textwidth=80
 set shortmess+=I
 
 
+" Enable bash-like completion
+set wildmode=longest,list,full
+
+
 
 " define <SPACE> as the map leader key
 let mapleader=' '
