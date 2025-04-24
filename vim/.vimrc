@@ -58,6 +58,10 @@ set number
 " set relativenumber
 
 
+" Render columns limit
+set colorcolumn=-1,+30
+highlight ColorColumn ctermbg=lightyellow guibg=lightyellow
+
 
 " enable line wrapping
 set wrap
