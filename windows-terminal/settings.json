@@ -13,14 +13,6 @@
     "initialCols": 132,
     "initialRows": 24,
     "keybindings": [],
-    "language": "en-US",
-    "launchMode": "default",
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
-    ],
     "profiles": 
     {
         "defaults": 
@@ -43,22 +35,6 @@
         "list": 
         [
             {
-                "closeOnExit": "never",
-                "commandline": "pwsh.exe -NoLogo",
-                "guid": "{4dbc053b-fe99-40ca-8030-b97ea27b27eb}",
-                "icon": "C:\\Users\\Alexis\\Resources\\Icons\\32_GrommetIconsWindows.png",
-                "name": "powershell on Windows 11 ",
-                "startingDirectory": "%UserProfile%\\Dev",
-                "tabTitle": "Windows"
-            },
-            {
-                "commandline": "pwsh.exe -NoLogo -NoProfile",
-                "guid": "{eda218a5-815d-499f-9732-8beb0a3e8ba9}",
-                "hidden": true,
-                "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "PowerShell"
-            },
-            {
                 "commandline": "powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
@@ -72,22 +48,27 @@
                 "name": "Command Prompt"
             },
             {
-                "commandline": "wsl.exe -d Ubuntu -e bash",
-                "guid": "{de7a42b0-d4e2-4c61-bf97-b4ff46948cea}",
-                "hidden": false,
-                "icon": "C:\\Users\\Alexis\\Resources\\Icons\\32_GrommetIconsUbuntu.png",
-                "name": "bash on Ubuntu 22.04.5 LTS [wsl2]",
-                "startingDirectory": "~",
-                "tabTitle": "Ubuntu"
+                "commandline": "pwsh.exe -NoLogo -NoProfile",
+                "guid": "{eda218a5-815d-499f-9732-8beb0a3e8ba9}",
+                "hidden": true,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell"
             },
             {
-                "commandline": "wsl.exe -d OpenSUSE-Tumbleweed -e fish",
-                "guid": "{55dafe21-ebc5-4e92-8f6f-3e1f2ac5fe55}",
-                "hidden": false,
-                "icon": "C:\\Users\\Alexis\\Resources\\Icons\\32_GrommetIconsSuse.png",
-                "name": "fish on OpenSUSE Tumbleweed [wsl2]",
+                "commandline": "pwsh.exe -NoLogo",
+                "guid": "{4dbc053b-fe99-40ca-8030-b97ea27b27eb}",
+                "icon": "%UserProfile%\\Resources\\Icons\\32_GrommetIconsWindows.png",
+                "name": "powershell on Windows",
+                "startingDirectory": "%UserProfile%",
+                "tabTitle": "Windows"
+            },
+            {
+                "commandline": "wsl.exe -d Ubuntu -e bash",
+                "guid": "{de7a42b0-d4e2-4c61-bf97-b4ff46948cea}",
+                "icon": "%UserProfile%\\Resources\\Icons\\32_GrommetIconsUbuntu.png",
+                "name": "bash on Ubuntu [wsl2]",
                 "startingDirectory": "~",
-                "tabTitle": "Tumbleweed"
+                "tabTitle": "Ubuntu"
             }
         ]
     },
