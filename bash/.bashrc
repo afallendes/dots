@@ -31,7 +31,7 @@ alias ll="ls -lA"
 alias h="history"
 alias c="clear"
 alias r="clear && source ~/.bashrc"
-alias t="tree -a -I .git"
+alias t="tree --filesfirst -a -I .git"
 alias s="sync"
 
 # Bat
