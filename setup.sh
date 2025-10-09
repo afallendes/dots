@@ -29,4 +29,4 @@ sync $BASE_DIR/starship/starship.toml $HOME/.config/starship.toml
 sync $BASE_DIR/vim/.vimrc $HOME/.vimrc
 
 # Visual Studio Code
-sync $BASE_DIR/visual-studio-code/settings.json $HOME/.config/Code/User/settings.json
+sync $BASE_DIR/vscode/settings.json $HOME/.config/Code/User/settings.json
