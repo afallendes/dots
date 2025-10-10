@@ -1,52 +1,30 @@
 {
-    "dev.containers.dockerComposePath": "podman-compose",
-    "dev.containers.dockerPath": "podman",
-    "dev.containers.executeInWSL": true,
+    // diff editor
     "diffEditor.hideUnchangedRegions.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.cursorStyle": "block",
-    "editor.foldingStrategy": "indentation",
-    "editor.fontFamily": "'Iosevka Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.largeFileOptimizations": true,
-    "editor.minimap.enabled": false,
+
+    // editor
     "editor.rulers": [
         80
     ],
-    "editor.stickyScroll.enabled": true,
-    "extensions.autoUpdate": "onlyEnabledExtensions",
+
+    // extensions
+    "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
-    "files.associations": {
-        ".env*": "dotenv",
-        "*.env": "dotenv"
-    },
-    "files.exclude": {
-        "**/.trunk/*out": true
-    },
+    "extensions.autoCheckUpdates": false,
+
+    // files
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "files.watcherExclude": {
-        "**/.trunk/*out": true
-    },
-    "terminal.integrated.defaultProfile.windows": "pwsh",
-    "terminal.integrated.fontFamily": "'IosevkaTerm Nerd Font'",
-    "terminal.integrated.fontLigatures.enabled": true,
-    "terminal.integrated.profiles.windows": {
-        "pwsh": {
-            "args": [
-                "-NoLogo"
-            ],
-            "color": "terminal.ansiBlue",
-            "icon": "terminal-powershell",
-            "path": "${env:ProgramFiles}\\PowerShell\\7\\pwsh.exe"
-        }
-    },
-    "update.showReleaseNotes": false,
-    "window.autoDetectColorScheme": true,
+
+    // window
     "window.commandCenter": false,
-    "window.title": "${rootName}${separator}${profileName}${separator}${appName}",
+    "window.title": "${appName}",
+
+    // workbench
+    "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.preferredDarkColorTheme": "GitHub Dark",
-    "workbench.preferredLightColorTheme": "GitHub Light",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.preferredLightColorTheme": "Visual Studio Light",
     "workbench.startupEditor": "none"
 }
