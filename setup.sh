@@ -20,7 +20,6 @@ sync $BASE_DIR/git/.gitconfig $HOME/.gitconfig
 
 # Micro
 sync $BASE_DIR/micro/settings.json $HOME/.config/micro/settings.json
-sync $BASE_DIR/micro/bindings.json $HOME/.config/micro/bindings.json
 
 # Starship
 sync $BASE_DIR/starship/starship.toml $HOME/.config/starship.toml
