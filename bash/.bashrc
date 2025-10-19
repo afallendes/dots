@@ -26,6 +26,7 @@ alias h="history"
 alias c="clear"
 alias r="clear && source ~/.bashrc"
 alias t="tree --filesfirst -a -I .git"
+alias v="vim"
 
 # Bat
 command -v batcat &> /dev/null && alias b="batcat"
